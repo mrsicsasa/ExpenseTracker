@@ -1,9 +1,11 @@
+import 'dart:ffi';
+
 class CategoryEntity {
   String categoryId;
   String name;
   int totalExpeneses;
   String icon;
-  String color;
+  int color;
 
   CategoryEntity({
     required this.categoryId,
